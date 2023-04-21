@@ -1,19 +1,18 @@
-import React from 'react';
-import Cart from './Cart';
+import React from "react";
+import Cart from "./ShoppingCart/Cart";
+import ProductList from "./ProductList";
 
 function App() {
   return (
     <>
-      <h1>Mi proyecto Redux con Parcel</h1>
-      <button>Add an item to cart</button>
-
+      <h1>Shopping Cart with Redux</h1>
+      <section>
+        <ProductList></ProductList>
+      </section>
       <section>
         <Cart></Cart>
       </section>
     </>
-
-
-    
   );
 }
 
